@@ -82,7 +82,7 @@ function imageTemplate(imgObj) {
 }
 
 function imagesTemplate(arr) { 
-    return arr.map(imageTemplate).join('\n');
+    return arr.map(imageTemplate).join('');
 }
 const markup = imagesTemplate(images);
 imagesList.innerHTML = markup;
